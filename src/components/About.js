@@ -3,7 +3,7 @@ import { FaGithub } from 'react-icons/fa';
 
 const About = () => {
     return (
-      <div style={{ padding: '2rem' }}>
+      <div className='about-container'>
         <h1>Sobre</h1>
         <p>Projeto desenvolvido para demonstrar a implementação de um simples portal de divulgação científica.</p>
         <p>
