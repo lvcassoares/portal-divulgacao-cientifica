@@ -2,13 +2,14 @@ import { Routes, Route, Link } from 'react-router-dom'
 import Home from './components/Home'
 import Articles from './components/Articles'
 import About from './components/About'
+import './App.css'
 
 export default function App() {
   return (
     <div>
-      <nav style={{ padding: '1rem', background: '#eee' }}>
-        <Link to="/" style={{ marginRight: '1rem' }}>Home</Link>
-        <Link to="/articles" style={{ marginRight: '1rem' }}>Artigos</Link>
+      <nav>
+        <Link to="/" >Home</Link>
+        <Link to="/articles" >Artigos</Link>
         <Link to="/about">Sobre</Link>
       </nav>
 

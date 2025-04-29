@@ -1,6 +1,6 @@
-export default function Home() {
+const Home = () => {
     return (
-      <div style={{ padding: '2rem' }}>
+      <div>
         <h1>Bem-vindo ao Portal de Divulgação Científica</h1>
         <p>
           Este projeto é uma plataforma simples para divulgar e consultar conteúdos de tecnologia.
@@ -12,3 +12,4 @@ export default function Home() {
     )
   }
   
+export default Home
